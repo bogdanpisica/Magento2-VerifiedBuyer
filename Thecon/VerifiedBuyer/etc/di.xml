@@ -1,0 +1,13 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Magento\Review\Controller\Product\Post" type="Thecon\VerifiedBuyer\Controller\Product\Post" />
+    <preference for="Magento\Review\Model\ResourceModel\Review\Collection" type="Thecon\VerifiedBuyer\Model\ResourceModel\Review\Collection" />
+    <preference for="Magento\Review\Model\ResourceModel\Review" type="Thecon\VerifiedBuyer\Model\ResourceModel\Review" />
+    <preference for="Magento\Review\Model\Review" type="Thecon\VerifiedBuyer\Model\Review" />
+    <preference for="Magento\Review\Controller\Adminhtml\Product\MassUpdateStatus" type="Thecon\VerifiedBuyer\Controller\Adminhtml\Product\MassUpdateStatus" />
+    <preference for="Magento\Review\Controller\Adminhtml\Product\MassDelete" type="Thecon\VerifiedBuyer\Controller\Adminhtml\Product\MassDelete" />
+    <preference for="Magento\Review\Controller\Adminhtml\Product\Edit" type="Thecon\VerifiedBuyer\Controller\Adminhtml\Product\Edit" />
+    <preference for="Magento\Review\Controller\Adminhtml\Product\Save" type="Thecon\VerifiedBuyer\Controller\Adminhtml\Product\Save" />
+    <preference for="Magento\Review\Controller\Adminhtml\Product\Delete" type="Thecon\VerifiedBuyer\Controller\Adminhtml\Product\Delete" />
+    <preference for="Magento\Review\Controller\Adminhtml\Product\Post" type="Thecon\VerifiedBuyer\Controller\Adminhtml\Product\Post" />
+
+</config>
